@@ -1,44 +1,36 @@
-# 📚 Bookly Apps Monorepo
+## 📚 Bookly Apps
 
-> Monorepo untuk aplikasi **Bookly**, terdiri dari frontend (Next.js) dan backend (Hono.js), menggunakan Yarn Workspaces. 🚀
+> aplikasi pengelolaan buku sederhana, terdiri dari frontend (Next.js) dan backend (Hono.js), menggunakan Yarn Workspaces.
 
 ---
 
-## 📦 Struktur Project
+### 📦 Struktur Project
 
 bookly-apps/ ├── apps/ │ ├── bookly-ui/ # Frontend (Next.js + Tailwind CSS) │ └── bookly-api/ # Backend (Hono.js + Drizzle ORM) ├── packages/ # (Opsional) Shared utils/libs ├── package.json # Root workspace config
 
----
-
-## ⚙️ Requirements
+### ⚙️ Requirements
 
 - **Node.js ≥ 18.18.0**
 - **Yarn ≥ 1.22** (Yarn Classic)
 
 > 📌 Disarankan menggunakan `nvm` untuk mengelola versi Node.
 
----
+### 🚀 Getting Started
 
-## 🚀 Getting Started
-
-### 1. Clone Repository
+#### 1. Clone Repository
 
 ```bash
 git clone https://github.com/akmalays/bookly.git
 cd bookly
 ```
 
----
-
-### 2. Install Dependencies
+#### 2. Install Dependencies
 
 ```bash
 yarn install
 ```
 
----
-
-### 3. 🛠️ Scripts
+#### 3. 🛠️ Scripts
 
 📄 Frontend (Next.js)
 
@@ -54,7 +46,7 @@ yarn install
 
 ---
 
-### 4. 🧰 Tools & Stack
+#### 4. 🧰 Tools & Stack
 
 🧠 Yarn Workspaces — Monorepo manager
 
