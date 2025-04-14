@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:web": "yarn workspace bookly-ui dev",
+    "dev:ui": "yarn workspace bookly-ui dev",
     "dev:api": "yarn workspace bookly-api dev"
   }
 }
