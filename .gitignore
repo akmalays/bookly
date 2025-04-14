@@ -1,0 +1,31 @@
+# Root node_modules
+node_modules/
+
+# Sub-workspace node_modules
+apps/*/node_modules/
+
+# Lock file
+yarn.lock
+
+# Environment files
+.env
+.env.*
+apps/*/.env
+apps/*/.env.*
+
+# Build output
+.next/
+dist/
+apps/*/.next/
+apps/*/dist/
+
+# Logs
+*.log
+apps/*/*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
